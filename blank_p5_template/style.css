@@ -1,0 +1,11 @@
+body{
+    margin:0;
+    background-color:lightsteelblue;
+}
+
+/* the '#' let us  */
+#canvasContainer{
+    margin:auto;
+    width:50%;
+    
+}

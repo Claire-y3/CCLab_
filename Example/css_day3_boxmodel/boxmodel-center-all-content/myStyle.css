@@ -1,0 +1,42 @@
+/* body{
+    margin: 0px;
+} */
+h1{
+    font-family: sans-serif;
+    color: coral;
+}
+
+.specialHighlight{
+    background-color: #77efa6;
+    font-size: 80px;
+    border-width: 1px;
+    border-style: dashed;
+    border-color: darkgreen;
+}
+
+.myImage{
+    width: 300px;
+    /* border: 2px black dashed; */
+}
+
+.imageBox{
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+
+    padding: 15px;
+    margin: 10px;
+    /* margin-left: 80px; */
+
+    background-color: lavender;
+
+}
+
+.mainWrapper{
+    width: 100%;
+    max-width: 1200px;
+    border: 3px blue dashed;
+    margin: auto;
+
+
+}

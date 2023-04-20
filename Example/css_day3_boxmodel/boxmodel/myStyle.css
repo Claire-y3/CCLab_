@@ -1,0 +1,61 @@
+/* body{
+    margin: 0px;
+} */
+h1{
+    font-family: sans-serif;
+    color: coral;
+}
+
+.specialHighlight{
+    background-color: #77efa6;
+    font-size: 80px;
+    border-width: 1px;
+    border-style: dashed;
+    border-color: darkgreen;
+}
+
+.myImage{
+    width: 300px;
+    /* border: 2px black dashed; */
+}
+
+.imageBox{
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+
+    padding: 15px;
+    margin: 10px;
+    /* margin-left: 80px; */
+
+    background-color: lavender;
+
+}
+
+.secondDiv{
+    background-color: #77efa6;
+    position: absolute;
+    top: 200px;
+    left: 430px;
+}
+.thirdDiv{
+    position: fixed;
+    top: 50px;
+    left: 50px;
+}
+
+.fourthDiv{
+    position: relative;
+    top: 65px;
+    left:30px;
+}
+
+.secondLastDiv{
+    display: inline-block;
+    width: 500px;
+}
+
+.centeredDiv{
+    width: 600px;
+    margin: auto;
+}

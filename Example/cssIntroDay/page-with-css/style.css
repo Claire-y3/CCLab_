@@ -1,0 +1,19 @@
+body{
+    background-color: salmon;
+}
+
+p{
+    font-size: 14px;
+    color: red;
+}
+
+.greyBackground{
+   
+    color: white;
+    background-color: grey;
+}
+
+.specialLetter{
+    font-size: 20px;
+    
+}

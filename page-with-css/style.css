@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(192, 254, 254);
+}
+p{
+    color: deepskyblue;
+    font-size: larger;
+}
+.greyBackground{
+    color:white;
+    background-color:grey
+}
+.specialLetter{
+    font-size: 40px;
+}
+div{
+    width: 200px;;
+    height:250px;
+
+    border-width: 1px;
+    border-style: solid;
+    border-color: grey;
+
+    padding: 30px 120px 0px 50px;
+    margin:0;
+}

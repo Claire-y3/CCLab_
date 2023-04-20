@@ -1,0 +1,59 @@
+h1{
+    font-family: sans-serif;
+    color: blueviolet;
+}
+
+.specialHighlight{
+    background-color:blueviolet;
+    color:white;
+    font-size: 60px;
+    border-width: 1px;
+    border-style: dotted;
+    border-color: yellow;
+}
+
+.myImage{
+    width: 300px;
+    border: 2px blueviolet dashed;
+}
+
+.imageBox{
+    border-width: 5px;
+    border-style:dashed;
+    border-color: blueviolet;
+    padding: 15px;
+    margin: 10px;
+    margin-left:  20px;
+    background-color: lavender;
+}
+
+.secondDiv{
+    background-color: purple;
+    position: absolute;
+    top: 120px;
+    left: 400px;;
+}
+
+.thirdDiv{
+    position:fixed;
+    top:50px;
+    left:50px;
+}
+
+.fourthDiv{
+    position:relative;
+    top:20px;
+    left: 30px;
+}
+
+.secondLastDiv{
+    display:inline-block;
+    width: 500px;
+}
+
+.centeredDiv{
+    width:100%;
+    max-width: 120px;
+    margin:auto;
+}
+
