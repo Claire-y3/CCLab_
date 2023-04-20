@@ -1,6 +1,6 @@
 # CCLab_
  
-##cool projects
+## cool projects
 
 Hello, welcome to my work in CCLab!!!
 
