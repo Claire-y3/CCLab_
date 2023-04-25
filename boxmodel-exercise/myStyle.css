@@ -28,7 +28,7 @@ h1{
 .secondDiv{
     background-color:rgba(230, 230, 250, 0.51);
     position: absolute;
-    width:45%;
+    width:30%;
     height: 400px;
 }
 .thirdDiv{
@@ -36,26 +36,8 @@ h1{
     position: absolute;
     width:45%;
     height: 400px;
-    left: 55%;
+    left: 30%;
 }
-
-.fourthDiv{
-    background-color:rgba(240, 128, 128, 0.507);
-    position: absolute;
-    width:45%;
-    height: 400px;
-    top:650px;
-}
-
-.fifthDiv{
-    background-color:rgba(143, 188, 143, 0.5);
-    position: absolute;
-    width:45%;
-    height: 400px;
-    top:650px;
-    left: 55%;
-}
-
 .sixthDiv{
     background-color: lightpink;
     position:fixed;
