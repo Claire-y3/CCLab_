@@ -1,0 +1,56 @@
+html {
+    width: 100%;
+    margin: 0;
+}
+
+body {
+    font-size: 10px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.keyBox{
+    border: 10px solid blue;
+    margin:auto;
+    background-color:azure;
+}
+
+.symbol{
+    font-size:20px;
+}
+
+.k-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.emoji{
+    font-size: 25px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    background: #11121476;
+    color: #ecf0f4;
+    width: 100%;
+    list-style-type: none;
+    margin: 4px 6px;
+    border-radius: 6px;
+    height: 35px;
+    min-width: 35px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}

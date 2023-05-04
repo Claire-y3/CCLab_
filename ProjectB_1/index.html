@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="lib/p5.js"></script>
+    <script src="lib/p5.sound.js"></script>
+</head>
+<body>
+    <h1>Emoji Memo</h1>
+
+ <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <h2 class="m-0 text-primary"><i class="fa fa-book me-3"></i>Emoji Memo</h2>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="about.html" class="nav-item nav-link">About</a>
+                <div class="nav-item dropdown">
+                    <div class="dropdown-menu fade-down m-0">
+                    </div>
+                </div>
+             </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <div id="canvasContainer"></div>
+    <p>Above is my P5 sketch</p>
+
+    <script src="sketch.js"></script>
+
+        <div class="typing">
+            <ul class="k-flex">
+                        <li tabindex="15" class="k-flex-sb">
+                            <span>~</span>
+                            <span>`</span>
+                        </li>
+                        <li tabindex="16" class="k-flex-sb">
+                            <span>!</span>
+                            <span>1</span>
+                        </li>
+                        <li tabindex="17" class="k-flex-sb">
+                            <span>@</span>
+                            <span>2</span>
+                        </li>
+                        <li tabindex="18" class="k-flex-sb">
+                            <span>#</span>
+                            <span>3</span>
+                        </li>
+                        <li tabindex="19" class="k-flex-sb">
+                            <span>$</span>
+                            <span>4</span>
+                        </li>
+                        <li tabindex="20" class="k-flex-sb">
+                            <span>%</span>
+                            <span>5</span>
+                        </li>
+                        <li tabindex="21" class="k-flex-sb">
+                            <span>^</span>
+                            <span>6</span>
+                        </li>
+                        <li tabindex="22" class="k-flex-sb">
+                            <span>&</span>
+                            <span>7</span>
+                        </li>
+                        <li tabindex="23">
+                            <span>*</span>
+                            <span>8</span>
+                        </li>
+                        <li tabindex="24" class="k-flex-sb">
+                            <span>(</span>
+                            <span>9</span>
+                        </li>
+                        <li tabindex="25" class="k-flex-sb">
+                            <span>)</span>
+                            <span>0</span>
+                        </li>
+                        <li tabindex="26" class="k-flex-sb">
+                            <span>_</span>
+                            <span>-</span>
+                        </li>
+                        <li tabindex="27" class="k-flex-sb">
+                            <span>+</span>
+                            <span>=</span>
+                        </li>
+                        <li tabindex="28">delete</li>
+                    </ul>
+                    <ul class="k-flex emoji">
+                        <li tabindex="29"></li>
+                        <li tabindex="30">&#128103</li>
+                        <li tabindex="31">&#128105</li>
+                        <li tabindex="32">&#128104</li>
+                        <li tabindex="33">&#128107</li>
+                        <li tabindex="34">&#129332</li>
+                        <li tabindex="35">&#129331</li>
+                        <li tabindex="36">&#129334</li>
+                        <li tabindex="37">&#128172</li>
+                        <li tabindex="38">&#128164</li>
+                        <li tabindex="39">&#128151</li>
+                        <li tabindex="40"">&#127874</li>
+                        <li tabindex="41"">&#127788</li>
+                        <li tabindex="42"">&#127775</li>
+                    </ul>
+                    <ul class="k-flex">
+                        <li tabindex="43" class=" emoji"></li>
+                        <li tabindex="44" class=" emoji">&#127783</li>
+                        <li tabindex="45" class=" emoji">&#127780</li>
+                        <li tabindex="46" class=" emoji">&#127794</li>
+                        <li tabindex="47" class=" emoji">&#127793</li>
+                        <li tabindex="48" class=" emoji">&#127800</li>
+                        <li tabindex="49" class=" emoji">&#127804</li>
+                        <li tabindex="50" class=" emoji">&#127810</li>
+                        <li tabindex="51" class=" emoji">&#127822</li>
+                        <li tabindex="52" class=" emoji">&#127846</li>
+                        <li tabindex="53" class=" emoji"">&#127853</li>
+                        <li tabindex="54" class=" emoji"">&#128176</li>
+                        <li tabindex="55">FINISH</li>
+                    </ul>
+                    <ul class="k-flex">
+                        <li tabindex="56">random emoji &#x1F3B2</li>
+                        <li tabindex="57" class=" emoji">&#127968</li>
+                        <li tabindex="58" class=" emoji">&#127973</li>
+                        <li tabindex="59" class=" emoji">&#128013</li>
+                        <li tabindex="60" class=" emoji">&#128048</li>
+                        <li tabindex="61" class=" emoji">&#128054</li>
+                        <li tabindex="62" class=" emoji">&#128055</li>
+                        <li tabindex="63" class=" emoji">&#128064</li>
+                        <li tabindex="64" class=" emoji">&#128125</li>
+                        <li tabindex="65" class=" emoji">&#128134</li>
+                        <li tabindex="66" class=" emoji">&#128138</li>
+                        <li tabindex="67">random emoji &#x1F3B2</li>
+                    </ul>
+        </div>
+
+</body>
+
+</html>
