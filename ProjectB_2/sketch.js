@@ -16,6 +16,10 @@ function draw(){
     textAlign(CENTER);
     text("Once upon a time ✍️——",130,40);
 
+    text("👨‍🍳🍳🍔🌭🍟🍕",width/2,height/2-30);
+    text("! 😱💦🤧",width/2,height/2+20);
+    text("____________",width/2,height/2+70);
+
 
     fill(150);
     textAlign(RIGHT);
