@@ -1,0 +1,317 @@
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* font-family: cursive; */
+}
+
+body{
+    margin:0;
+    /* background-color:hsla(47, 96%, 70%, 0.526); */
+    background-color: #fff;
+    padding:0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a:link{
+    color:gold;
+    text-decoration: none;
+}
+
+a:visited{
+    color:gray;
+    text-decoration: none;
+}
+
+a:hover{
+    color:#ffffff;
+    background-color: gold;
+    display:inline-block;
+    padding: 0 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* the '#' let us  */
+#canvasContainer{
+    margin:auto;
+}
+
+.video{
+    width: 100%;
+    background-clip: content-box;
+    /* border: 10px solid blue; */
+    position: relative;
+    top:70px;
+  }
+
+.bgVideo{
+    width: 100%;
+    height: 120%;
+    position:fixed;
+}
+
+.box1{
+    width: 100%;
+    height: 70px;
+    background-clip: content-box;
+    /* background-image: linear-gradient(rgb(231, 231, 255),rgb(255, 212, 212)); */
+    background-image: linear-gradient(gold,white);
+    /* border: 10px solid blue; */
+    position: fixed; 
+  }
+.emojiMemo{
+    width:300px;
+    height: 60px;
+    background-clip: content-box;
+    /* border: 5px solid red; */
+    top:0;
+    text-align: CENTER;
+  }
+.about{
+    width:150px;
+    height: 50px;
+    background-clip: content-box;
+    /* border: 5px solid red; */
+    right:50px;
+    top:10px;
+    position:fixed;
+  }
+.home{
+    width:150px;
+    height: 50px;
+    background-clip: content-box;
+    /* border: 5px solid red; */
+    right:220px;
+    top:10px;
+    position:fixed;
+  }
+
+.backgroundTextLeft{
+    width:300px;
+    height:100px;
+    transform:rotate(90deg);
+    top:300px;
+    left:0px;
+    /* border: 5px solid red; */
+    position:fixed;
+    font-size: 120px;
+    color: white;
+    font-weight:bold;
+    /* avoid selection */
+    user-select: none;
+}
+
+.backgroundTextRight{
+    width:300px;
+    height:100px;
+    transform:rotate(270deg);
+    top:330px;
+    right:0;
+    /* border: 5px solid red; */
+    position:fixed;
+    font-size: 120px;
+    color: white;
+    font-weight:bold;
+    /* avoid selection */
+    user-select: none;
+}
+
+/* instructions */
+.centerBox{
+        width: 100%;
+        height:800px;
+        margin: auto;
+        line-height: 40px;
+        text-align: center;
+        /* border: 10px solid blue; */
+    }
+    .instructions{
+        background-color:gold;
+        padding-top: 50px;
+    }
+    .item1{
+        background-clip: content-box;
+        margin-top: 220px;
+        margin-bottom:150px;
+        /* border: 5px solid red; */
+        color: gold;
+        font-size: 50px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .item2{
+        background-clip: content-box;
+        /* border: 5px solid red; */
+        height:100px;
+        color: #fff;
+        font-size: 20px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .item3{
+        color:rgb(255, 255, 255);
+        height:100px;
+        font-size: 20px;
+    }
+    .item4{
+        height:100px;
+        color:rgb(255, 255, 255);
+        font-size: 20px;
+        padding-bottom:50px;
+    }
+
+/* keyboard */
+.keyBackground{
+    background-color: gold;
+    width:100%;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+  .typingBox{
+    top:50px;
+    width:80%;
+    min-width: fit-content;
+    height:fit-content;
+    margin-top: 120px;
+    /* border: 10px solid rgb(0, 255, 106); */
+  }
+
+.keyBox1{
+    /* border: 10px solid blue; */
+    margin-left:10%;
+    margin-right:10%;
+    min-width: fit-content;
+}
+
+  .keyBox{
+    border: 0.5px solid rgba(255, 166, 0, 0.799);
+    background-color: rgba(255, 255, 255, 0.2);
+    font-size: 12px;
+    font-weight: 600;
+    margin:0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.symbol{
+    font-size:20px;
+}
+
+.k-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:60px;
+    border:0;
+    text-align: center;
+}
+
+.emoji{
+    font-size: 25px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    /* background: #11121476; */
+    color: #ffffff;
+    width: 100%;
+    list-style-type: none;
+    margin: 4px 6px;
+    border-radius: 6px;
+    height: 55px;
+    min-width: 35px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.character{
+    color: #fff;
+    font-size: 5px;
+}
+
+/* about page */
+.container {
+    width: auto;
+    height: auto;
+    background-color: rgba(241, 206, 8, 0.654);
+}
+
+.img {
+    overflow: hidden;
+    /* 背景图片不重复 */
+    background-repeat: no-repeat;
+    /* 背景图片位置：居中 */
+    background-position: center;
+    /* 背景图片固定 */
+    background-attachment: fixed;
+    background-size: cover;
+    /* 禁止用户误选中 */
+    user-select: none;
+}
+
+#img1 {
+    background-image: url(./images/emojiShape.png);
+    background-size: cover;
+}
+
+section{
+    height:100vh;
+    position: relative;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 10px;
+    font-family: 'modern_no._20regular',serif;
+    text-shadow: 2px 2px rgba(46, 43, 43, 0.395);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-box {
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    bottom: 25%;
+    text-align: center;
+    background-color: rgba(170, 167, 167, 0.517);
+    transform-origin: center bottom;
+    transform: skew(0, -5deg);
+}
+
+.text-box .content {
+    display: inline-block;
+    text-align: right;
+    margin: 40px 0 10px;
+    width: 90%;
+    transform-origin: right bottom;
+    transform: skew(0, 5deg);
+}
+
+.content h2 {
+    margin-top: 60px;
+    font-size: 36px;
+    font-family: 'modern_no._20regular',serif;
+    text-shadow: 1px 1px 2px #323232;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.content p {
+    font-size: 22px;
+    line-height: 1.5;
+    color: #fff;
+}
+.lastSec{
+    height:100px;
+    padding-top: 30px;
+    text-align: center;
+    color: gold;
+}

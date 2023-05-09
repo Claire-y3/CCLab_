@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="lib/p5.js"></script>
+    <script src="lib/p5.sound.js"></script>
+</head>
+<body>
+    <!-- headline -->
+    <div class="box1">
+        <div class="emojiMemo"><h1>EMOJI MEMO</h1></div>
+        <div class="about">
+            <h3>--><a href="about.html">About📖</a><--</h3>
+        </div>
+        <div class="home">
+            <h3>--><a href="index.html">Home⌨️</a><--</h3>
+        </div>
+    </div>
+
+    <!-- background text-->
+    <div class="backgroundTextLeft">
+        <p>EMOJI</p>
+    </div>
+    <div class="backgroundTextRight">
+        <p>MEMO</p>
+    </div>
+
+    <!-- intro video-->
+    <div class="video">
+        <video width="100%" height="100%" autoplay loop>
+            <source src="video/3.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <!-- instructions -->
+    <div class="centerBox">
+            <div class="item1"><p> INSTRUCTIONS /</p><p>Write your 1st Emoji Memo</p></div>
+        <div class="instructions">
+            <div class="item2"><h3>Have you ever tried to tell a story without using any text?</h3></div>
+            <div class="item2"><h3>How often do you use emoji online?</h3></div>
+            <div class="item3"><h3>Here, you can see stories written by others. </h3></div>
+            <div class="item4"><h3>Now, you can continue the story through typing emoji</h3>
+                <h3>according to the keyboard below!</h3></div>
+        </div>
+    </div>
+
+    <!-- keyboard -->
+    <div class="centerBox typingBox">
+        <div>
+            <div id="canvasContainer"></div>
+            <script src="sketch.js"></script>
+            <input placeholder="Click here, then press down a key according to the keyboard below."  size="90" />
+            <p id="log"></p>
+        </div>
+    </div>
+    <div class="keyBackground">
+        <div class="keyBox1">
+                <ul class="k-flex keyBox">
+                            <li tabindex="15" id="key15" class="keyBox emoji"></li>
+                            <li tabindex="16" id="key16" class="keyBox emoji"></li>
+                            <li tabindex="17" id="key17" class="keyBox emoji"></li>
+                            <li tabindex="18" id="key18" class="keyBox emoji"></li>
+                            <li tabindex="19" id="key19" class="keyBox emoji"></li>
+                            <li tabindex="20" id="key20" class="keyBox emoji"></li>
+                            <li tabindex="21" id="key21" class="keyBox emoji"></li>
+                            <li tabindex="22" id="key22" class="keyBox emoji"></li>
+                            <li tabindex="23" id="key23" class="keyBox emoji"></li>
+                            <li tabindex="24" id="key24" class="keyBox emoji"></li>
+                            <li tabindex="25" id="key25" class="keyBox emoji"></li>
+                            <li tabindex="26" id="key26" class="keyBox emoji"></li>
+                            <li tabindex="27" id="key27" class="keyBox emoji"></li>
+                            <li tabindex="28" id="key28" class="keyBox">delete</li>
+                        </ul>
+                        <ul class="k-flex keyBox">
+                            <li tabindex="29" id="key29" class="keyBox">tab</li>
+                            <li class="keyBox emoji" id="key30" tabindex="30"></li>
+                            <li class="keyBox emoji" id="key31" tabindex="31"></li>
+                            <li class="keyBox emoji" id="key32" tabindex="32"></li>
+                            <li class="keyBox emoji" id="key33" tabindex="33"></li>
+                            <li class="keyBox emoji" id="key34" tabindex="34"></li>
+                            <li class="keyBox emoji" id="key35" tabindex="35"></li>
+                            <li class="keyBox emoji" id="key36" tabindex="36"></li>
+                            <li class="keyBox emoji" id="key37" tabindex="37"></li>
+                            <li class="keyBox emoji" id="key38" tabindex="38"></li>
+                            <li class="keyBox emoji" id="key39" tabindex="39"></li>
+                            <li class="keyBox emoji" id="key40" tabindex="40""></li>
+                            <li class="keyBox emoji" id="key41" tabindex="41""></li>
+                            <li class="keyBox emoji" id="key42" tabindex="42""></li>
+                        </ul>
+                        <ul class="k-flex keyBox">
+                            <li tabindex="43" id="key43" class="keyBox">caps lock</li>
+                            <li tabindex="44" id="key44" class="keyBox emoji"></li>
+                            <li tabindex="45" id="key45" class="keyBox emoji"></li>
+                            <li tabindex="46" id="key46" class="keyBox emoji"></li>
+                            <li tabindex="47" id="key47" class="keyBox emoji"></li>
+                            <li tabindex="48" id="key48" class="keyBox emoji"></li>
+                            <li tabindex="49" id="key49" class="keyBox emoji"></li>
+                            <li tabindex="50" id="key50" class="keyBox emoji"></li>
+                            <li tabindex="51" id="key51" class="keyBox emoji"></li>
+                            <li tabindex="52" id="key52" class="keyBox emoji"></li>
+                            <li tabindex="53" id="key53" class="keyBox emoji""></li>
+                            <li tabindex="54" id="key54" class="keyBox emoji""></li>
+                            <li tabindex="55" id="key55" class="keyBox">FINISH</li>
+                        </ul>
+                        <ul class="k-flex keyBox">
+                            <li tabindex="56" id="key56" class="keyBox">random emoji &#x1F3B2</li>
+                            <li tabindex="57" id="key57" class="keyBox emoji"></li>
+                            <li tabindex="58" id="key58" class="keyBox emoji"></li>
+                            <li tabindex="59" id="key59" class="keyBox emoji"></li>
+                            <li tabindex="60" id="key60" class="keyBox emoji"></li>
+                            <li tabindex="61" id="key61" class="keyBox emoji"></li>
+                            <li tabindex="62" id="key62" class="keyBox emoji"></li>
+                            <li tabindex="63" id="key63" class="keyBox emoji"></li>
+                            <li tabindex="64" id="key64" class="keyBox emoji"></li>
+                            <li tabindex="65" id="key65" class="keyBox emoji"></li>
+                            <li tabindex="66" id="key66" class="keyBox emoji"></li>
+                            <li tabindex="67" id="key67" class="keyBox" id="getRandomButton">random emoji &#x1F3B2</li>
+                        </ul>
+        </div>
+    </div>
+    <div class="lastSec">
+        <h2><a href="about.html">More 🔍</a></h2>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
