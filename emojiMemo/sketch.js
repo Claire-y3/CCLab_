@@ -5,7 +5,7 @@ let numBoom = 50;
 let dataObject;
 
 function setup(){
-    let cnv = createCanvas(windowWidth*0.9,400);
+    let cnv = createCanvas(windowWidth*0.9,300);
     cnv.parent("canvasContainer");
     dataObject = new DataObject(width/2);
 }
@@ -111,7 +111,7 @@ class DataObject{
         push();
         translate(this.x,this.y);
         fill(0);
-        textSize(40);
+        textSize(30);
         textFont("Cursive");
     
         textAlign(RIGHT);
@@ -120,7 +120,7 @@ class DataObject{
         for(let i = 0;i<this.sentences.length;i++){
             textAlign(CENTER);
             fill(0);
-            textSize(45);
+            textSize(35);
             text(this.sentences[i],0,i*this.lineHeight);
             // console.log(this.sentences[i],this.sentences.length,this.y);
         }
