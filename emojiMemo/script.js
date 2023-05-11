@@ -110,6 +110,7 @@ function printStory(){
         let currentSentence = input.value
         dataObject.addSentence(currentSentence)
         input.value = "";
+        currentStringElements=[''];
     }
 }
 

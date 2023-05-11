@@ -5,7 +5,7 @@ let numBoom = 50;
 let dataObject;
 
 function setup(){
-    let cnv = createCanvas(windowWidth*0.8,220);
+    let cnv = createCanvas(windowWidth*0.9,300);
     cnv.parent("canvasContainer");
     dataObject = new DataObject(width/2);
 }
@@ -57,7 +57,7 @@ function drawSlider(){
 
 function drawOldStory(){
     fill(0);
-    textSize(25);
+    textSize(40);
     textFont("Cursive");
 
     textAlign(CENTER);
@@ -104,14 +104,14 @@ class DataObject{
     constructor(x){
         this.x=x;
         this.sentences=[];
-        this.lineHeight=10;
+        this.lineHeight=15;
         this.y=height-this.sentences.length*this.lineHeight;
     }
     display(){
         push();
         translate(this.x,this.y);
         fill(0);
-        textSize(25);
+        textSize(40);
         textFont("Cursive");
     
         textAlign(RIGHT);
@@ -120,14 +120,14 @@ class DataObject{
         for(let i = 0;i<this.sentences.length;i++){
             textAlign(CENTER);
             fill(0);
-            textSize(25);
+            textSize(35);
             text(this.sentences[i],0,i*this.lineHeight);
             // console.log(this.sentences[i],this.sentences.length,this.y);
         }
         pop();
     }
     addSentence(s){
-        console.log("I received ", s);
+        // console.log("I received ", s);
         this.sentences.push(s);
         this.y=height-this.sentences.length*this.lineHeight;
     }
@@ -146,7 +146,7 @@ class DataObject{
     scrollDown(){
         strokeWeight(25);
         strokeCap(ROUND);
-        if (mouseX>=width-50 && mouseX<=width && mouseY>=height-30 && mouseY<=width && this.y>0){
+        if (mouseX>=width-50 && mouseX<=width && mouseY>=height-30 && mouseY<=width && this.y>height-this.sentences.length*this.lineHeight){
             stroke(150);
             this.y--;
         }else{
