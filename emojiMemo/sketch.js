@@ -61,8 +61,6 @@ function drawOldStory(){
     textFont("Cursive");
 
     textAlign(CENTER);
-    // text("👨‍🍳🍳🍔🌭🍟🍕",width/2,posY);
-    // text("! 😱💦🤧",width/2,posY+50);
     text("📝:  ________________",width/2,height-10);
 }
 
@@ -89,10 +87,6 @@ class Boom {
   display() {
     push();
     translate(this.x, this.y);
-
-    // noStroke();
-    // fill(255,215,0,this.transp);
-    // ellipse(0,-5, this.size,this.size);
     textSize(this.size);
     text("⭐️",0,0);
 
@@ -115,7 +109,10 @@ class DataObject{
         textFont("Cursive");
     
         textAlign(RIGHT);
-        text("Once upon a time ✍️——",0,-50);
+        text("Once upon a time ✍️——",0,-130);
+        textAlign(CENTER);
+        text("💤💤💤",0,-90);
+        text("🌤️👀👧🏻💬",0,-50);
 
         for(let i = 0;i<this.sentences.length;i++){
             textAlign(CENTER);
