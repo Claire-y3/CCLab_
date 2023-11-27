@@ -257,7 +257,8 @@ li {
 }
 
 #img1 {
-    background-image: url(./images/emojiShape.png);
+/*     background-image: url(./images/emojiShape.png); */
+    background-image: url(https://github.com/Claire-y3/CCLab_/blob/main/emojiMemo/images/emojiShape.png?raw=true);
     background-size: cover;
 }
 
